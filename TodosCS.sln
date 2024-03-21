@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodosCS.Server", "TodosCS.Server\TodosCS.Server.csproj", "{2B889B57-59A7-4E28-8842-56FD3871D020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodosCS.Server", "TodosCS.Server\TodosCS.Server.csproj", "{2B889B57-59A7-4E28-8842-56FD3871D020}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "todoscs.client", "todoscs.client\todoscs.client.esproj", "{0A7FC161-7001-426C-B244-7B7BE9A2D20E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodosCS.Test", "TodosCS.Test\TodosCS.Test.csproj", "{E5132CF5-F6D7-4C05-8766-C31B00300D4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodosCS.Test", "TodosCS.Test\TodosCS.Test.csproj", "{E5132CF5-F6D7-4C05-8766-C31B00300D4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86A348C9-22A7-475E-BDEB-6F1380BD5E57}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
