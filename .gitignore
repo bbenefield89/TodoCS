@@ -43,6 +43,7 @@ ProjectSettings/
 *.pidb
 *.svclog
 *.scc
+appsettings.*.json
 
 # .NET Core specific
 project.lock.json
