@@ -1,0 +1,6 @@
+@TodosCS.Server_HostAddress = http://localhost:5272
+
+GET {{TodosCS.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

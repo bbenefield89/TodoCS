@@ -1,0 +1,17 @@
+<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+  <input type="text" formControlName="title">
+  <button type="submit">Add Todo</button>
+</form>
+
+<ul>
+  <li *ngFor="let todo of todoService.todos">
+    <div>
+      <p>{{ todo.id }}</p>
+      <p>{{ todo.title }}</p>
+      <p>{{ todo.isComplete }}</p>
+    </div>
+    <button (click)="handleCompleteTodo(todo)">COMPLETE</button>
+    <button (click)="handleDeleteTodo(todo.id)">DELETE</button>
+  </li>
+</ul>
+
